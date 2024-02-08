@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"gatewaysvr/config"
 	log "github.com/sirupsen/logrus"
-	"github.com/wuzi/grpc_demo/proto"
+	"github.com/wuzizhongqiu/test_grpc/proto"
 
 	"time"
 	// 必须要导入这个包，否则grpc会报错
