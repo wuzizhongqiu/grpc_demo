@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package proto;
 
-option go_package = "github.com/wuzizhongqiu/test_grpc/pb";
+option go_package = "github.com/wuzizhongqiu/grpc_demo/pb";
 
 service UserService {
   rpc Register(RegisterRequest) returns (RegisterResponse);

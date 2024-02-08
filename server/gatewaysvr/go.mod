@@ -3,6 +3,7 @@ module gatewaysvr
 go 1.21.0
 
 require (
+
 	github.com/gin-gonic/gin v1.9.1
 	github.com/mbobakov/grpc-consul-resolver v1.5.3
 	github.com/sirupsen/logrus v1.9.3
